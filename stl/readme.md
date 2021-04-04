@@ -5,4 +5,30 @@ STL has four components
 - Containers
 - Iterators
 - Algorithms
-- Functions
+- Functors
+---
+
+## Containers
+Containers or container classes store objects and data. There are in total seven standard “first-class” container classes and three container adaptor classes and only seven header files that provide access to these containers or container adaptors.
+
+1. Sequence containers
+    - vector
+    - pair
+    - list
+    - deque
+    - arrays
+    - forward list
+2. Container Adapters
+    - stack
+    - priority queue
+    - queue
+3. Associate/Ordered containers
+    - set
+    - multiset
+    - map
+    - multimap
+4. Unordered Associative containers
+    - unordered_set
+    - unordered_multiset
+    - unordered_map
+    - unordered_multimap

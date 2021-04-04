@@ -14,6 +14,7 @@ Certain functions associated with the vector are:
 6. **cend()** – Returns a constant iterator pointing to the theoretical element that follows the last element in the vector.
 7. **crbegin() **– Returns a constant reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element.
 8. **crend()** – Returns a constant reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end).
+
 -------------
 ### Capacity
 1. **size()** – Returns the number of elements in the vector.
@@ -23,6 +24,14 @@ Certain functions associated with the vector are:
 5. **empty()** – Returns whether the container is empty.
 6. **shrink_to_fit()** – Reduces the capacity of the container to fit its size and destroys all elements beyond the capacity.
 7. **reserve()** – Requests that the vector capacity be at least enough to contain n elements.
+
+----
+### Element access:
+1. **reference operator [g]** – Returns a reference to the element at position ‘g’ in the vector.
+2. **at(g)** – Returns a reference to the element at position ‘g’ in the vector.
+3. **front()** – Returns a reference to the first element in the vector.
+4. **back()** – Returns a reference to the last element in the vector.
+5. **data()** – Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
 
 -----
 ### Modifiers:
